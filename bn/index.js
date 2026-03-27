@@ -5,7 +5,7 @@ const bcrypt = require("bcrypt");
 const crypto = require("crypto");
 const { Model } = require("./Model/RegisterModel"); // Assuming your model is named RegisterModel
 require("./dbconfig");
-
+//comment
 const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
