@@ -155,7 +155,7 @@ export default function MiniDrawer(props) {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" noWrap component="div" textAlign={"center"} sx={{ flexGrow: 1 }}>
-            Expense Tracker App
+            Expense Buddy
           </Typography>
           <IconButton
             color="inherit"
