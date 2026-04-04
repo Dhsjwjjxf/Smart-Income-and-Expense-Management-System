@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 mongoose.connect("mongodb://localhost:27017")
-// mongoose.connect("mongodb://localhost:27017/my-database")
+// mongoose.connect("mongodb://localhost:27017/test")
 .then((data)=>{
     console.log("database connected")
 })

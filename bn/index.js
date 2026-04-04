@@ -24,8 +24,8 @@ app.use(function (req, res, next) {
 const transporter = nodemailer.createTransport({
   service: "gmail",
   auth: {
-    user: "jaygurjar3045@gmail.com",
-    pass: "plwd zsee hrej otcp", // Use app-specific passwords for security
+  user: "oknothing156@gmail.com",
+    pass: "Ok_Nothing@156", // Use app-specific passwords for security
   },
 });
 
@@ -96,7 +96,7 @@ app.post("/send-random-password", async (req, res) => {
 
     // Configure the email options
     const mailOptions = {
-      from: "jaygurjar3045@gmail.com", // Use your email here
+      from: "oknothing156@gmail.com", // Use your email here
       to: email,
       subject: "Your Temporary Password",
       html: emailContent,
